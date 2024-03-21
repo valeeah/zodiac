@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Signos zodiacales</title>
+</head>
+<body>
+    
+    <audio src="/Mystical Music Musica Mistica.mp3" controls autoplay="true"  loop="true" hidden></audio>
+    <center>
+        <form name="formulario">
+        <fieldset>
+            <legend>
+            <a id="titulo">Indica tu dia y mes de nacimiento</a>
+            </legend>
+            <label>Dia de nacimiento: </label>
+            <input type="number" name="dia" max="31" min="1" required="" id="c1">
+            <label>Mes de nacimiento: </label>
+            <input type="number" name="mes" max="12" min="1" required="" id="c2"><br>
+        </br>
+            <input type="button" id="zc"   value="¿Que signo eres?" onclick="zodiac()" ><br> 
+        
+        </br>
+            <img src="horoscopos.jpg" id="Imagenes" alt="Signos zodiacalel">
+        </fieldset>
+        </form>
+    </center>
+ <script src="script.js"></script>
+</body>
+</html>
